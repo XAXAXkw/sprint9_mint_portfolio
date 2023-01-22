@@ -1,5 +1,5 @@
 <template>
-    <div class=" carder container text-light ">
+    <div class=" carder container bg-dark text-light ">
 
     <div class="container d-flex   p-2 m-0">
     <div class="row m-0">

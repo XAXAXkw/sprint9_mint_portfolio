@@ -3,7 +3,7 @@ import TopMenu from '../src/components/TopMenu.vue'
 import LogIn from '../src/components/LogIn.vue'
 import FooTer from '../src/components/FooTer.vue'
 export default{
-  name:'app',
+  name:'App',
   components:{
     TopMenu,LogIn,FooTer
   }

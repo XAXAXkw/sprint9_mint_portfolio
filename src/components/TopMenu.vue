@@ -1,5 +1,5 @@
 <template>
-    <div style="background-color: black; text-align:left">
+    <div style="background-color: black; text-align:left" class="row">
         <span style="font-size: 10px;color:aquamarine;align-text:left;background-color: black;">
         <span  style="color:green;letter-spacing:0.3rem;padding-left:2em">IVAN CUADROS' </span>MINT <span style="font-size:20px">⊛</span> PORTFOLIO</span>
     <div class="top row d-flex justify-content-start">

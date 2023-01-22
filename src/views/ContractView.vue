@@ -20,11 +20,7 @@ Contract Options
 </div>
 <div class="container m-4 p-4">
 
-<div class="container bg-dark m-4">
-EL
-<div class="row">
-<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis labore animi minus ad repellat accusantium suscipit vel corrupti cumque quis unde, commodi nobis, maxime ipsa odit adipisci enim, earum dolorum!</p></div>
-</div>
+
 </div>
     </div>
 </template>

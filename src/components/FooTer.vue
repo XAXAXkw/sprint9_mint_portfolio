@@ -28,7 +28,7 @@
     position:relative;
     background-color: rgba(25, 16, 26, 0.942);
     min-width:100%;
-    min-height:3em;
+    min-height:25em;
     margin:0;
     padding:0;
 
