@@ -1,0 +1,190 @@
+[
+  {
+    "id": "0",
+    "title": "Johnny el Guapu",
+    "pic": "guapo.png",
+    "mp3": "laclavedelcine.mp3",
+    "txt": "Ha mort una estrella",
+    "type": "comic",
+    "data":"https://issuu.com/ivancuadros/docs/el_guapo_reloaded_copy"
+  },
+  {
+    "id": "1",
+    "title": "Autorretrat",
+    "pic": "creator.jpg",
+    "mp3": "laclavedelcine.mp3",
+    "txt": "35684aeaeaeaeeaeaeaeaeeaeaeaeaeaeatartaratratar",
+    "type": "painting"
+  },
+  {
+    "id": "2",
+    "title": "La Clave",
+    "pic": "mint_play.svg",
+    "mp3": "laclavedelcine.mp3",
+    "txt": "Dark Mood, Mistery, Instrumental",
+    "type": "music",
+    "style":"instrumental"
+  },
+  {
+    "id": "3",
+    "title": "No Computa",
+    "pic": "mint_play.svg",
+    "mp3": "javascript.mp3",
+    "txt": "TeknoPunk, Programming, Javascript",
+    "type": "music",
+    "style":"punk"
+  },
+  {
+    "id": "4",
+    "title": "Kiss me, Angelo",
+    "pic": "mint_play.svg",
+    "mp3": "angelo.mp3",
+    "txt": "Dark Mood, Instrumental, Night Mood, Noir",
+    "type": "music",
+    "style":"jazz"
+  },
+  {
+    "id": "5",
+    "title": "la Rosita",
+    "pic": "mint_play.svg",
+    "mp3": "larosita.mp3",
+    "txt": "Incidental, Light, Instrumental",
+    "type": "music",
+    "style":"instrumental"
+    
+  },
+  {
+    "id": "6",
+    "title": "Santo Culte",
+    "pic": "mint_play.svg",
+    "mp3": "kanderel.mp3",
+    "txt": "Experimental, Punk, Weird",
+    "type": "music",
+    "style":"punk"
+  },
+  {
+    "id": "7",
+    "title": "Abstracte 326",
+    "pic": "landscape327.png",
+    "mp3": "laclavedelcine.mp3",
+    "txt": "35684aeaeaeaeeaeaeaeaeeaeaeaeaeaeatartaratratar",
+    "type": "painting"
+  },
+  {
+    "id": "8",
+    "title": "Mibra 1394",
+    "pic": "mibra1394.jpg",
+    "mp3": "laclavedelcine.mp3",
+    "txt": "35684aeaeaeaeeaeaeaeaeeaeaeaeaeaeatartaratratar",
+    "type": "painting"
+  },
+  {
+    "id": "9",
+    "title": "Mibra 1392",
+    "pic": "mibra1392.jpg",
+    "mp3": "laclavedelcine.mp3",
+    "txt": "35684aeaeaeaeeaeaeaeaeeaeaeaeaeaeatartaratratar",
+    "type": "painting"
+  },
+  {
+    "id": "10",
+    "title": "Mibra 1400",
+    "pic": "mibra1400.jpg",
+    "mp3": "laclavedelcine.mp3",
+    "txt": "35684aeaeaeaeeaeaeaeaeeaeaeaeaeaeatartaratratar",
+    "type": "painting"
+  },
+  {
+    "id": "11",
+    "title": "Abstract 202",
+    "pic": "abs_202.jpg",
+    "mp3": "laclavedelcine.mp3",
+    "txt": "35684aeaeaeaeeaeaeaeaeeaeaeaeaeaeatartaratratar",
+    "type": "painting"
+  },
+  {
+    "id": "12",
+    "title": "Abstract 204",
+    "pic": "abs_204.jpg",
+    "mp3": "laclavedelcine.mp3",
+    "txt": "35684aeaeaeaeeaeaeaeaeeaeaeaeaeaeatartaratratar",
+    "type": "painting"
+  },
+  {
+    "id": "13",
+    "title": "Abstract 201",
+    "pic": "abs_2.jpg",
+    "mp3": "laclavedelcine.mp3",
+    "txt": "35684aeaeaeaeeaeaeaeaeeaeaeaeaeaeatartaratratar",
+    "type": "painting"
+  },
+  {
+    "id": "14",
+    "title": "Abstract 201",
+    "pic": "abs_201.jpg",
+    "mp3": "laclavedelcine.mp3",
+    "txt": "35684aeaeaeaeeaeaeaeaeeaeaeaeaeaeatartaratratar",
+    "type": "painting"
+  },
+  {
+    "id": "15",
+    "title": "Abstract 3",
+    "pic": "abs_3.jpg",
+    "mp3": "laclavedelcine.mp3",
+    "txt": "35684aeaeaeaeeaeaeaeaeeaeaeaeaeaeatartaratratar",
+    "type": "painting"
+  },
+  {
+    "id": "16",
+    "title": "Abstract 201",
+    "pic": "mibra1395.jpg",
+    "mp3": "laclavedelcine.mp3",
+    "txt": "35684aeaeaeaeeaeaeaeaeeaeaeaeaeaeatartaratratar",
+    "type": "painting"
+  },
+  {
+    "id": "17",
+    "title": "Zombies",
+    "pic": "zombies.png",
+    "mp3": "laclavedelcine.mp3",
+    "txt": "Ha mort una estrella",
+    "type": "comic",
+    "data":"https://issuu.com/ivancuadros/docs/zomb_webwww"
+  },
+  {
+    "id": "18",
+    "title": "ZEZE 328",
+    "pic": "zeze328.png",
+    "mp3": "laclavedelcine.mp3",
+    "txt": "ZEZE Fanzine 328",
+    "type": "comic",
+    "data":"https://issuu.com/ivancuadros/docs/zeze328_comix2"
+  },
+  {
+    "id": "19",
+    "title": "Abstracte 325",
+    "pic": "abs_325.png",
+    "mp3": "",
+    "txt": "Abstracte 325",
+    "type": "painting",
+    "data":""
+  },
+  {
+    "id": "20",
+    "title": "Abstracte 20",
+    "pic": "abs_20.jpg",
+    "mp3": "",
+    "txt": "Abstracte 20",
+    "type": "painting",
+    "data":""
+  },
+  {
+    "id": "21",
+    "title": "Abstracte 13",
+    "pic": "abs_13.png",
+    "mp3": "",
+    "txt": "Abstracte 13",
+    "type": "painting",
+    "data":""
+  }
+]

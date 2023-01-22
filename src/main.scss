@@ -1,0 +1,149 @@
+.body2{
+    background: linear-gradient(3deg, #223731, #29735e, #0b3126);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 66%}
+    50%{background-position:100% 35%}
+    100%{background-position:0% 66%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 66%}
+    50%{background-position:100% 35%}
+    100%{background-position:0% 66%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 66%}
+    50%{background-position:100% 35%}
+    100%{background-position:0% 66%}
+}
+  body{
+
+    background: linear-gradient(221deg, #dbf6ef, #93b1a97a, #cce1dcc8);
+        background-size: 600% 600%;
+    
+        -webkit-animation: AnimationName 45s ease infinite;
+        -moz-animation: AnimationName 45s ease infinite;
+        animation: AnimationName 45s ease infinite;
+  }
+        
+    
+    .peebody {
+        margin: 0;
+        padding: 0;
+        
+        width: 100%;
+        min-height: 100%;
+       
+        background: rgb(51, 51, 51);
+        background-image: linear-gradient(rgba(0, 255, 0, 0.137) .01em, transparent .1em), linear-gradient(90deg, rgba(0, 255, 0, 0.14) .01em, transparent .1em);
+        background-size: 1em 3em;
+      }
+    
+    @-webkit-keyframes AnimationName {
+        0%{background-position:91% 0%}
+        50%{background-position:10% 100%}
+        100%{background-position:91% 0%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:91% 0%}
+        50%{background-position:10% 100%}
+        100%{background-position:91% 0%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:91% 0%}
+        50%{background-position:10% 100%}
+        100%{background-position:91% 0%}
+    }
+
+
+
+
+p{
+    font-size: 8px;
+}
+
+.main{
+    // flex-direction: column;
+    flex-direction: row;
+ }
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .main{
+         flex-direction: column;
+     //   flex-direction: row;
+
+     }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+.main{
+    // flex-direction: column;
+    flex-direction: row;
+ }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+.main{
+    // flex-direction: column;
+    flex-direction: row;
+ }
+}
+
+.jungled1{
+    background-image: url('@/assets/bg_mint01.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+bottom:0;
+    margin:0;
+    padding:0;
+    min-width:100%;
+
+}
+
+p,h1,img{
+
+        -webkit-animation-name: fadeIn;
+        animation-name: fadeIn;
+        -webkit-animation-duration: 2s;
+        animation-duration: 2s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        }
+        @-webkit-keyframes fadeIn {
+        0% {opacity: 0;}
+        100% {opacity: 1;}
+        }
+        @keyframes fadeIn {
+        0% {opacity: 0;}
+        100% {opacity: 1;}
+        } 
+
+
+        .container.bg-dark,.logg,.logger{
+            -webkit-animation-name: fadeIn;
+            animation-name: fadeIn;
+            -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+        }
