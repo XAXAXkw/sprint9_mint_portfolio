@@ -68,6 +68,7 @@ nav {
     color: #2c3e50;
     text-decoration: none;
     text-shadow: 0px 0px 15px rgba(127, 255, 212, 0.832);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
     &.router-link-exact-active {
       color: #42b983;

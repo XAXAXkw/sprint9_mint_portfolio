@@ -1,7 +1,7 @@
 <template>
-    <div style="background-color: black; text-align:left" class="row">
+    <div style="background-color: black;" class="row">
         <span style="font-size: 10px;color:aquamarine;align-text:left;background-color: black;">
-        <span  style="color:green;letter-spacing:0.3rem;padding-left:2em">IVAN CUADROS' </span>MINT <span style="font-size:20px">⊛</span> PORTFOLIO</span>
+       MINT <span style="font-size:20px">⊛</span> PORTFOLIO</span>
     <div class="top row d-flex justify-content-start">
     
 <p>MENU  ||  
@@ -35,6 +35,7 @@ a {
     font-weight: bold;
     color: #2c3e50;
     text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
     &.router-link-exact-active {
       color: #96ffd0;

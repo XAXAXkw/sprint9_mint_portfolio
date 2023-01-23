@@ -123,4 +123,8 @@ a {
       color: #96ffd0;
     }
   }
+
+  a:hover{
+    color:aquamarine;
+  }
 </style>

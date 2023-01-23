@@ -18,9 +18,9 @@ Contract Options
 <div class="col  p-2"> <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi quia excepturi ab mollitia omnis nihil non temporibus a molestiae nobis? Vitae nostrum commodi ab sunt repudiandae iure, dicta omnis quasi?</p></div>
 </div>
 </div>
-<div class="container m-4 p-4">
+<div class="container  p-4">
 
-
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci hic, ullam at dolore veritatis iusto temporibus, quisquam autem nihil quasi laborum excepturi impedit sint blanditiis sunt reprehenderit beatae odit. Impedit!</p>
 </div>
     </div>
 </template>

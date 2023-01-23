@@ -124,7 +124,7 @@ p {
   min-width: 100%;
 }
 
-p, h1, img {
+p, h1, img, router-link {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
   -webkit-animation-duration: 2s;
@@ -182,24 +182,32 @@ p, h1, img {
     background-color: rgba(119, 185, 142, 0.341);
     width: 100%;
     height: 100%;
+    -webkit-box-shadow: 0px 0px 50px aquamarine;
+            box-shadow: 0px 0px 50px aquamarine;
   }
   25% {
     top: 0px;
     background-color: rgba(0, 255, 200, 0.537);
     width: 100%;
     height: 100%;
+    -webkit-box-shadow: 0px 0px 100px aquamarine;
+            box-shadow: 0px 0px 100px aquamarine;
   }
   50% {
     top: 0px;
     background-color: rgba(86, 255, 241, 0.667);
     width: 100%;
     height: 50%;
+    -webkit-box-shadow: 0px 0px 30px aquamarine;
+            box-shadow: 0px 0px 30px aquamarine;
   }
   100% {
     top: 0px;
     background-color: rgba(17, 140, 54, 0.368);
     width: 100%;
     height: 0%;
+    -webkit-box-shadow: 0px 0px 5px aquamarine;
+            box-shadow: 0px 0px 5px aquamarine;
   }
 }
 
@@ -209,30 +217,38 @@ p, h1, img {
     background-color: rgba(119, 185, 142, 0.341);
     width: 100%;
     height: 100%;
+    -webkit-box-shadow: 0px 0px 50px aquamarine;
+            box-shadow: 0px 0px 50px aquamarine;
   }
   25% {
     top: 0px;
     background-color: rgba(0, 255, 200, 0.537);
     width: 100%;
     height: 100%;
+    -webkit-box-shadow: 0px 0px 100px aquamarine;
+            box-shadow: 0px 0px 100px aquamarine;
   }
   50% {
     top: 0px;
     background-color: rgba(86, 255, 241, 0.667);
     width: 100%;
     height: 50%;
+    -webkit-box-shadow: 0px 0px 30px aquamarine;
+            box-shadow: 0px 0px 30px aquamarine;
   }
   100% {
     top: 0px;
     background-color: rgba(17, 140, 54, 0.368);
     width: 100%;
     height: 0%;
+    -webkit-box-shadow: 0px 0px 5px aquamarine;
+            box-shadow: 0px 0px 5px aquamarine;
   }
 }
 
 .introbit1 {
   position: absolute;
-  margin-left: 50%;
+  margin-left: 75%;
   z-index: 12;
   width: 100px;
   height: 100px;
@@ -253,24 +269,32 @@ p, h1, img {
     background-color: #adffcc;
     width: 100%;
     height: 100%;
+    -webkit-box-shadow: 0px 0px 50px aquamarine;
+            box-shadow: 0px 0px 50px aquamarine;
   }
   25% {
     top: 0px;
     background-color: rgba(48, 48, 41, 0.281);
     width: 100%;
     height: 100%;
+    -webkit-box-shadow: 0px 0px 25px aquamarine;
+            box-shadow: 0px 0px 25px aquamarine;
   }
   50% {
     top: 0px;
     background-color: rgba(255, 255, 0, 0.32);
-    width: 100%;
+    width: 10%;
     height: 100%;
+    -webkit-box-shadow: 0px 0px 15px aquamarine;
+            box-shadow: 0px 0px 15px aquamarine;
   }
   100% {
     top: 0px;
     background-color: rgba(63, 214, 108, 0.551);
-    width: 100%;
-    height: 0%;
+    width: 0%;
+    height: 100%;
+    -webkit-box-shadow: 0px 0px 5px rgba(127, 255, 212, 0.209);
+            box-shadow: 0px 0px 5px rgba(127, 255, 212, 0.209);
   }
 }
 
@@ -280,24 +304,32 @@ p, h1, img {
     background-color: #adffcc;
     width: 100%;
     height: 100%;
+    -webkit-box-shadow: 0px 0px 50px aquamarine;
+            box-shadow: 0px 0px 50px aquamarine;
   }
   25% {
     top: 0px;
     background-color: rgba(48, 48, 41, 0.281);
     width: 100%;
     height: 100%;
+    -webkit-box-shadow: 0px 0px 25px aquamarine;
+            box-shadow: 0px 0px 25px aquamarine;
   }
   50% {
     top: 0px;
     background-color: rgba(255, 255, 0, 0.32);
-    width: 100%;
+    width: 10%;
     height: 100%;
+    -webkit-box-shadow: 0px 0px 15px aquamarine;
+            box-shadow: 0px 0px 15px aquamarine;
   }
   100% {
     top: 0px;
     background-color: rgba(63, 214, 108, 0.551);
-    width: 100%;
-    height: 0%;
+    width: 0%;
+    height: 100%;
+    -webkit-box-shadow: 0px 0px 5px rgba(127, 255, 212, 0.209);
+            box-shadow: 0px 0px 5px rgba(127, 255, 212, 0.209);
   }
 }
 
