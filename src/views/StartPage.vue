@@ -54,7 +54,8 @@ import HeaderComponent from '../components/HeaderComponent.vue'
             created(){
                 
 
-                const LIST = this.DB.filter(o=>o.type != "music")
+                const LIST = this.DB.filter(o=>o.type === "painting")
+
                  this.INTROLIST = [];  
                 for (let i=0; i<6 ;i++){
 

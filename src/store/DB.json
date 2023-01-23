@@ -186,5 +186,50 @@
     "txt": "Abstracte 13",
     "type": "painting",
     "data":""
+  },
+  {
+    "id": "22",
+    "title": "BIRK Invasion",
+    "pic": "birk.png",
+    "mp3": "",
+    "txt": "Birkson & Birk",
+    "type": "comic",
+    "data":"https://issuu.com/ivancuadros/docs/birk"
+  },
+  {
+    "id": "23",
+    "title": "Oswolt Blues",
+    "pic": "oswolt.png",
+    "mp3": "",
+    "txt": "He just wanted to have some children...",
+    "type": "comic",
+    "data":"https://issuu.com/ivancuadros/docs/osw_esp_web"
+  },
+  {
+    "id": "24",
+    "title": "Mortimerio & Filemorgo",
+    "pic": "morti.png",
+    "mp3": "",
+    "txt": "CRISIS en la T.I.A.",
+    "type": "comic",
+    "data":"https://issuu.com/ivancuadros/docs/mortimer_2014_comix"
+  },
+  {
+    "id": "25",
+    "title": "The Kingpin",
+    "pic": "kingpin.png",
+    "mp3": "",
+    "txt": "Pop Art",
+    "type": "painting",
+    "data":""
+  },
+  {
+    "id": "26",
+    "title": "Ballet Cyclopléqique",
+    "pic": "cicloplegique.png",
+    "mp3": "",
+    "txt": "Art Brut",
+    "type": "painting",
+    "data":""
   }
 ]

@@ -2,7 +2,7 @@
   <div class="about">
     <HeaderComponent 
     spot="mint_about.svg"
-    title="10 years Freelancer"
+    title="20 years Freelancing"
     small="since 1975 to 2023"
     />
    <div class="container m-4 p-2

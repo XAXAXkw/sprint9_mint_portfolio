@@ -12,6 +12,7 @@ export default{
 
 <template >
   <div>
+  <div class="introbit"></div>  <div class="introbit1"></div> <div class="introbit2"></div>
   <LogIn />
   <TopMenu />
 
