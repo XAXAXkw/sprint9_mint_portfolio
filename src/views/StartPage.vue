@@ -14,11 +14,23 @@
 
     </div>
 
+    <div class="top bg-success row d-flex justify-content-start p-1">
+    
+    <p> 
+
+        <router-link to="/audio">Music</router-link> | 
+        <router-link to="/pic">Full Catalogue</router-link> | 
+        <router-link to="/biblio">Comic-Books</router-link>
+     </p> 
+        
+        </div>
 
 <div class="container">
 
 <div class="row">
-<div class="col bg-dark border border-success m-2 p-4"><img :src="fillPic(0)"/><p style="color:grey">{{ INTROLIST[0].title }}</p></div>
+<div class="col bg-dark border border-success m-2 p-4">
+
+<img :src="fillPic(0)"/><p style="color:grey">{{ INTROLIST[0].title }}</p></div>
 <div class="col bg-dark border border-success m-2 p-4"><img :src="fillPic(1)"/><p style="color:grey">{{ INTROLIST[1].title }}</p></div>
 <div class="col bg-dark border border-success m-2 p-4"><img :src="fillPic(2)"/><p style="color:grey">{{ INTROLIST[2].title }}</p></div>
 <div class="col bg-dark border border-success m-2 p-4"><img :src="fillPic(3)"/><p style="color:grey">{{ INTROLIST[3].title }}</p></div>
@@ -87,7 +99,8 @@ import HeaderComponent from '../components/HeaderComponent.vue'
             fillPic(n){
 
                 return require("../assets/data/pics/" + this.INTROLIST[n].pic)
-            }
+            },
+     
         }
 
     }
@@ -101,5 +114,13 @@ img{
     max-width:150px;
     margin:2rem;
 }
+a {
+    font-weight: bold;
+    color: #2c3e50;
+    text-decoration: none;
 
+    &.router-link-exact-active {
+      color: #96ffd0;
+    }
+  }
 </style>

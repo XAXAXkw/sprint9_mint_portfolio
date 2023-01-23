@@ -41,6 +41,13 @@ const routes = [
     name: 'biblio',
 
     component: () => import('../components/BiblioComponent.vue')
+  },
+  
+  {
+    path: '/visor/:id',
+    name: 'visor',
+
+    component: () => import('../components/VisorComponent.vue')
   }
 
 ]

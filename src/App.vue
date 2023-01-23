@@ -2,20 +2,31 @@
 import TopMenu from '../src/components/TopMenu.vue'
 import LogIn from '../src/components/LogIn.vue'
 import FooTer from '../src/components/FooTer.vue'
+import VisorComponent from '../src/components/VisorComponent.vue'
 export default{
   name:'App',
   components:{
-    TopMenu,LogIn,FooTer
+    TopMenu,LogIn,FooTer,VisorComponent
+  },
+  data(){
+    return{
+      getIndexator:''
+    }
   }
 }
 </script>
 
 <template >
-  <div>
+
+
+  <div>  <VisorComponent />
+
+
   <div class="introbit"></div>  <div class="introbit1"></div> <div class="introbit2"></div>
+
   <LogIn />
   <TopMenu />
-
+  <div class="introbit"></div>  <div class="introbit1"></div> <div class="introbit2"></div>
   <nav>
     <router-link to="/"><p>FRONTEND developped with vue.js <img style="width:15px" src="./assets/logo.png"/></p>Home</router-link> |
     <router-link to="/about">About</router-link> | 

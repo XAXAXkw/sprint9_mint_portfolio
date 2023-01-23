@@ -1,5 +1,5 @@
 <template>
-    <div  class="peebody">
+    <div  class="memphis">
     <div class=" carder container  text-light ">
         
 
@@ -27,8 +27,8 @@
 
 <div
 v-for="item in DBMusic" :key="item.id"
- class=" card container bg-dark text-light mb-2 ">
- <div class="row border border-success d-flex justify-content-center p-2 rounded">
+ class=" card container rounded border-success  peebody text-light mb-2 ">
+ <div class="row  d-flex justify-content-center p-2 ">
  <div class="col">
  <div class="container"> <h4>{{item.title}}</h4></div>
 
@@ -46,7 +46,9 @@ v-for="item in DBMusic" :key="item.id"
 </div>
 </div>
 
-    </div></div>
+    </div>
+    <br />
+    </div>
 </template>
 
 <script>
@@ -119,6 +121,12 @@ audio::-webkit-media-controls-panel {
 
 audio::-webkit-media-controls-time-remaining-display {
   color: #fff;
+}
+.memphis{
+    background-image: url('../assets/memphisbkg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 </style>
