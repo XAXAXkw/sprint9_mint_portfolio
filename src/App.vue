@@ -19,7 +19,8 @@ export default{
 <template >
 
 
-  <div>  <VisorComponent />
+  <div><VisorComponent />
+ 
 
 
   <div class="introbit"></div>  <div class="introbit1"></div> <div class="introbit2"></div>
@@ -55,7 +56,8 @@ export default{
   font-family: Avenir, Helvetica, Arial, sans-serif;
   }
 
-
+max-width:auto;
+margin:auto;
   text-align: center;
   color: #2c3e50;
 }

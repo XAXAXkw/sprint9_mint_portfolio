@@ -65,6 +65,7 @@ import { mapState } from 'vuex';
         },
         created(){
             this.DBMusic = this.DB.filter((o)=>o.type==="music");
+            this.DBMusic.reverse();
           
         },
         data(){
@@ -108,6 +109,7 @@ import { mapState } from 'vuex';
 .card{
 margin:2rem;
 width:75%;
+box-shadow: 0px 0px 25px rgba(127, 255, 212, 0.585);
 }
 
 audio{

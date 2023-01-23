@@ -14,7 +14,7 @@
 
     </div>
 
-    <div class="top bg-success row d-flex justify-content-start p-1">
+    <div class="top bg-success d-flex justify-content-start p-4">
     
     <p> 
 
@@ -28,9 +28,18 @@
 <div class="container">
 
 <div class="row">
-<div class="col bg-dark border border-success m-2 p-4">
+<div 
 
-<img :src="fillPic(0)"/><p style="color:grey">{{ INTROLIST[0].title }}</p></div>
+class="col bg-dark border border-success m-2 p-4"
+>
+<a href="#" @click="openVisor(0)">
+<img 
+
+:src="fillPic(0)"/>
+</a>
+<p style="color:grey">{{ INTROLIST[0].title }}</p></div>
+
+
 <div class="col bg-dark border border-success m-2 p-4"><img :src="fillPic(1)"/><p style="color:grey">{{ INTROLIST[1].title }}</p></div>
 <div class="col bg-dark border border-success m-2 p-4"><img :src="fillPic(2)"/><p style="color:grey">{{ INTROLIST[2].title }}</p></div>
 <div class="col bg-dark border border-success m-2 p-4"><img :src="fillPic(3)"/><p style="color:grey">{{ INTROLIST[3].title }}</p></div>
@@ -99,6 +108,10 @@ import HeaderComponent from '../components/HeaderComponent.vue'
             fillPic(n){
 
                 return require("../assets/data/pics/" + this.INTROLIST[n].pic)
+            },
+            openVisor(){
+   
+                this.visorState=true;
             },
      
         }

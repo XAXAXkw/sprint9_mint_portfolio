@@ -1,4 +1,4 @@
-.body2 {
+body3 {
   background: linear-gradient(3deg, #223731, #29735e, #0b3126);
   background-size: 600% 600%;
   -webkit-animation: AnimationName 30s ease infinite;
@@ -116,6 +116,115 @@ p {
 
 .jungled1 {
   background-image: url("@/assets/bg_mint01.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+}
+
+.biorain {
+  pointer-events: none;
+  background-image: url("@/assets/bg_mint01.png");
+  -webkit-animation-name: rain;
+          animation-name: rain;
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+  position: fixed;
+  z-index: 5;
+}
+
+@-webkit-keyframes rain {
+  0% {
+    top: 0px;
+    background-color: #adffcc;
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: 0px 0px 50px aquamarine;
+            box-shadow: 0px 0px 50px aquamarine;
+    opacity: 0.6;
+  }
+  25% {
+    top: 0px;
+    background-color: rgba(48, 48, 41, 0.281);
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: 0px 0px 25px aquamarine;
+            box-shadow: 0px 0px 25px aquamarine;
+    opacity: 0.8;
+  }
+  50% {
+    top: 0px;
+    background-color: rgba(255, 255, 0, 0.32);
+    width: 10%;
+    height: 100%;
+    -webkit-box-shadow: 0px 0px 15px aquamarine;
+            box-shadow: 0px 0px 15px aquamarine;
+    opacity: 1;
+  }
+  100% {
+    top: 0px;
+    background-color: rgba(63, 214, 108, 0);
+    width: 0%;
+    height: 100%;
+    -webkit-box-shadow: 0px 0px 5px rgba(127, 255, 212, 0);
+            box-shadow: 0px 0px 5px rgba(127, 255, 212, 0);
+    opacity: 0;
+  }
+}
+
+@keyframes rain {
+  0% {
+    top: 0px;
+    background-color: #adffcc;
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: 0px 0px 50px aquamarine;
+            box-shadow: 0px 0px 50px aquamarine;
+    opacity: 0.6;
+  }
+  25% {
+    top: 0px;
+    background-color: rgba(48, 48, 41, 0.281);
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: 0px 0px 25px aquamarine;
+            box-shadow: 0px 0px 25px aquamarine;
+    opacity: 0.8;
+  }
+  50% {
+    top: 0px;
+    background-color: rgba(255, 255, 0, 0.32);
+    width: 10%;
+    height: 100%;
+    -webkit-box-shadow: 0px 0px 15px aquamarine;
+            box-shadow: 0px 0px 15px aquamarine;
+    opacity: 1;
+  }
+  100% {
+    top: 0px;
+    background-color: rgba(63, 214, 108, 0);
+    width: 0%;
+    height: 100%;
+    -webkit-box-shadow: 0px 0px 5px rgba(127, 255, 212, 0);
+            box-shadow: 0px 0px 5px rgba(127, 255, 212, 0);
+    opacity: 0;
+  }
+}
+
+.jungled2 {
+  background-image: url("@/assets/memphisbkg2.png");
   background-repeat: no-repeat;
   background-size: cover;
   bottom: 0;
@@ -401,6 +510,198 @@ p, h1, img, router-link {
     background-color: rgba(180, 255, 203, 0.463);
     width: 0%;
     height: 100%;
+  }
+}
+
+.rotateIn {
+  -webkit-animation-name: rotateIn;
+  animation-name: rotateIn;
+  -webkit-animation-duration: 2s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes rotateIn {
+  0% {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, -200deg);
+    transform: rotate3d(0, 0, 1, -200deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, -5deg);
+    transform: rotate3d(0, 0, 1, -5deg);
+    opacity: 1;
+  }
+}
+
+@keyframes rotateIn {
+  0% {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, -200deg);
+    transform: rotate3d(0, 0, 1, -200deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, -5deg);
+    transform: rotate3d(0, 0, 1, -5deg);
+    opacity: 1;
+  }
+}
+
+.square {
+  position: fixed;
+  margin: auto;
+  z-index: 100;
+  width: 100px;
+  height: 100px;
+  background: black;
+  -webkit-box-shadow: 0px 0px 50px rgba(127, 255, 212, 0.869);
+          box-shadow: 0px 0px 50px rgba(127, 255, 212, 0.869);
+  -webkit-animation-name: example100;
+          animation-name: example100;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.square1 {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-self: end;
+  z-index: 100;
+  width: 100px;
+  height: 100px;
+  background: black;
+  -webkit-box-shadow: 0px 0px 50px rgba(7, 255, 172, 0.869);
+          box-shadow: 0px 0px 50px rgba(7, 255, 172, 0.869);
+  -webkit-animation-name: example1000;
+          animation-name: example1000;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+@-webkit-keyframes example100 {
+  0% {
+    top: 0px;
+    background-color: rgba(173, 255, 204, 0.603);
+    width: 0%;
+    height: 0%;
+  }
+  25% {
+    top: 0px;
+    background-color: #2e2930;
+    width: 100%;
+    height: 100%;
+  }
+  50% {
+    top: 0px;
+    background-color: rgba(255, 255, 0, 0.606);
+    width: 100%;
+    height: 100%;
+  }
+  100% {
+    top: 0px;
+    background-color: rgba(180, 255, 203, 0);
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@keyframes example100 {
+  0% {
+    top: 0px;
+    background-color: rgba(173, 255, 204, 0.603);
+    width: 0%;
+    height: 0%;
+  }
+  25% {
+    top: 0px;
+    background-color: #2e2930;
+    width: 100%;
+    height: 100%;
+  }
+  50% {
+    top: 0px;
+    background-color: rgba(255, 255, 0, 0.606);
+    width: 100%;
+    height: 100%;
+  }
+  100% {
+    top: 0px;
+    background-color: rgba(180, 255, 203, 0);
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@-webkit-keyframes example1000 {
+  0% {
+    top: 0px;
+    background-color: rgba(173, 255, 204, 0.603);
+    width: 0%;
+    height: 0%;
+  }
+  25% {
+    top: 150px;
+    background-color: #2e2930;
+    width: 100%;
+    height: 100%;
+  }
+  50% {
+    top: 300px;
+    background-color: rgba(255, 255, 0, 0.606);
+    width: 100%;
+    height: 100%;
+  }
+  100% {
+    top: 600px;
+    background-color: rgba(180, 255, 203, 0.463);
+    width: 0%;
+    height: 0%;
+  }
+}
+
+@keyframes example1000 {
+  0% {
+    top: 0px;
+    background-color: rgba(173, 255, 204, 0.603);
+    width: 0%;
+    height: 0%;
+  }
+  25% {
+    top: 150px;
+    background-color: #2e2930;
+    width: 100%;
+    height: 100%;
+  }
+  50% {
+    top: 300px;
+    background-color: rgba(255, 255, 0, 0.606);
+    width: 100%;
+    height: 100%;
+  }
+  100% {
+    top: 600px;
+    background-color: rgba(180, 255, 203, 0.463);
+    width: 0%;
+    height: 0%;
   }
 }
 /*# sourceMappingURL=main.css.map */

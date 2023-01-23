@@ -69,16 +69,20 @@ import { mapState } from 'vuex';
            byP(){
             this.DBMusic = this.DB
             .filter((o)=>o.type==="painting")
+            this.DBMusic.reverse()
         },  byM(){
             this.DBMusic = this.DB
             .filter((o)=>o.type==="music")
+            this.DBMusic.reverse()
         },  byC(){
             this.DBMusic = this.DB
             .filter((o)=>o.type==="comic")
+            this.DBMusic.reverse()
         },
        byAll(){
             this.DBMusic = this.DB
             .map((o)=>o)
+            this.DBMusic.reverse()
         },
         }
     }

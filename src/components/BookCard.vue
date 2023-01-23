@@ -1,20 +1,20 @@
 <template>
-    <div class=" carder container  text-light ">
+    <div class=" carder container  m-auto text-light">
 <div
 v-for="item in DBMusic" :key="item.id"
- class=" card container bg-dark text-light mb-4 p-4 ">
+ class=" card container bg-dark text-light rounded mb-4 p-4  jungled">
 <div class="row ">
 
 <div class="col"><div><h4>{{item.title}}</h4><h6 style="color:green">{{item.txt}}</h6>
 
 
-<div class="container"><img style="width:150px"
+<div class="container rotateIn"><img style="width:150px"
 :src="fillPic(item.pic)"
 /></div>
 <br />
 <p>{{ item.data }}</p></div></div>
 <div class="col">
-<div class="container m-2 p-4 border m-0">
+<div class="container bg-light text-dark justify-content-start note m-2 p-4 border m-0">
 <h6>{{ item.title }}</h6>
 <p>{{ item.txt }}
 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur placeat id eveniet eos nesciunt ducimus totam amet vel, debitis quaerat aspernatur odit ex tenetur reiciendis esse rerum accusamus suscipit? Corrupti.</p>
@@ -89,6 +89,9 @@ a {
   a:hover{
     color: #96ffd0;
 
+  }
+  .note{
+    box-shadow: 0px 1px 15px grey;
   }
 
 </style>

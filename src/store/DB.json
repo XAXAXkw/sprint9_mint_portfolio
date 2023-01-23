@@ -231,5 +231,91 @@
     "txt": "Art Brut",
     "type": "painting",
     "data":""
+  },
+  {
+    "id": "27",
+    "title": "Rockaway Beach",
+    "pic": "mint_play.svg",
+    "mp3": "rockaway.mp3",
+    "txt": "Ramones cover with DR. George Van Brassens",
+    "type": "music",
+    "style":"covers"
+  },
+  {
+    "id": "28",
+    "title": "Two Silhouettes",
+    "pic": "mint_play.svg",
+    "mp3": "twosilhouettes.mp3",
+    "txt": "Incidental, Light, Instrumental",
+    "type": "music",
+    "style":"instrumental"
+    
+  },
+  {
+    "id": "29",
+    "title": "Turing's Enigma",
+    "pic": "mint_play.svg",
+    "mp3": "turing_drums.mp3",
+    "txt": "OST Music for theater",
+    "type": "music",
+    "style":"jazz"
+    
+  },
+  {
+    "id": "30",
+    "title": "Petite Fleur",
+    "pic": "mint_play.svg",
+    "mp3": "petitefleur.mp3",
+    "txt": "Oldies Goldies",
+    "type": "music",
+    "style":"jazz"
+    
+  },
+  {
+    "id": "31",
+    "title": "Pour Satie",
+    "pic": "mint_play.svg",
+    "mp3": "gymno.mp3",
+    "txt": "Oldies Goldies",
+    "type": "music",
+    "style":"instrumental"
+    
+  },
+  {
+    "id": "32",
+    "title": "Black Tears",
+    "pic": "mint_play.svg",
+    "mp3": "blacktears.mp3",
+    "txt": "Oldies Goldies",
+    "type": "music",
+    "style":"covers"
+    
+  },
+  {
+    "id": "33",
+    "title": "Nu Pagadi",
+    "pic": "pagadi.png",
+    "mp3": "",
+    "txt": "Pop Art",
+    "type": "painting",
+    "data":""
+  },
+  {
+    "id": "34",
+    "title": "Bomba",
+    "pic": "bomba.png",
+    "mp3": "",
+    "txt": "Pop Art",
+    "type": "painting",
+    "data":""
+  },
+  {
+    "id": "35",
+    "title": "ACAB",
+    "pic": "acab.png",
+    "mp3": "",
+    "txt": "Pop Art",
+    "type": "painting",
+    "data":""
   }
 ]

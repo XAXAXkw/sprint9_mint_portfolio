@@ -1,8 +1,11 @@
 <template>
     <div style="background-color: black;" class="row">
+
+
+
         <span style="font-size: 10px;color:aquamarine;align-text:left;background-color: black;">
        MINT <span style="font-size:20px">⊛</span> PORTFOLIO</span>
-    <div class="top row d-flex justify-content-start">
+    <div class="top d-flex justify-content-start">
     
 <p>MENU  ||  
     <router-link to="/">Home</router-link> |

@@ -1,5 +1,5 @@
 <template>
-    <div class="peebody">
+    <div class="peebody m-auto">
 <HeaderComponent 
 spot="mint_books.svg"
 title="Comic-Books"

@@ -1,6 +1,6 @@
 <template>
-    <div class="visor" v-if="showVisor" @click="showVisor=!showVisor">
-
+    <div class="visor" v-if="visorState">
+{{ visorState }}
     <div class="row d-flex border border-success peebody">
     <div class="container d-flex justify-items-start p-2">
     
@@ -19,7 +19,9 @@
 <div class="container">
 
 
-<div class="pictor">
+<div class="pictor"
+@click="store.commit('setVis', false)"
+>
 <img :src="fillPic(1)"/>
 
 
@@ -36,12 +38,12 @@ import { mapState } from 'vuex';
         name:'VisorComponent',
         props:(['sendIndexator']),
         computed:{
-            ...mapState(['DB']),
+            ...mapState(['DB','indexator','visorState','setVis']),
           
         },
         data(){
             return{
-                showVisor:false
+            
             }
         },
         methods:{
@@ -49,6 +51,7 @@ import { mapState } from 'vuex';
             fillPic(pic){
                 return require("../assets/data/pics/" + this.DB[pic].pic)
             },
+         
         }
     }
 </script>
@@ -64,7 +67,7 @@ import { mapState } from 'vuex';
     -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
-   background-size: 100%;
+   background-size: cover;
     z-index:50;
     color:aquamarine;
     text-shadow: 0px 0px 25px rgb(17, 12, 17);
@@ -77,13 +80,14 @@ import { mapState } from 'vuex';
  
 }
    img{
- max-width:800px;
- margin:auto;
+ max-height:500px;
+ margin:2em auto;
 
     }
 @media only screen and (max-width: 600px) {
 
 img{
+    max-height:auto;
     padding:0; 
     min-width:100%;
     margin:auto;
